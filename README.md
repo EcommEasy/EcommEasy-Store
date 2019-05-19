@@ -23,13 +23,13 @@ git clone https://github.com/EcommEasy/EcommEasy-Store.git
 
 Start the application in your terminal:  
   
-           ```shell
-           npm start
-           ```
-or) Start the application in the background**
-           ```shell
-           pm2 start process.json
-           ```
+```shell
+npm start
+```
+or) Start the application in the background
+```shell
+pm2 start process.json
+```
 
 
 
