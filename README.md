@@ -21,15 +21,15 @@ git clone https://github.com/EcommEasy/EcommEasy-Store.git
 
 **P.S. Your backend (api) must be online. Follow this [README](https://github.com/EcommEasy/EcommEasy/blob/master/README.md) file before you run EcommEasy-Store.**
 
- - Start the application in your terminal:  
+   - Start the application in your terminal:  
   
-  ```shell
-  npm start
-  ```
- - or) Start the application in the background**
-  ```shell
-  pm2 start process.json
-  ```
+           ```shell
+           npm start
+           ```
+   - or) Start the application in the background**
+           ```shell
+           pm2 start process.json
+           ```
 
 
 
