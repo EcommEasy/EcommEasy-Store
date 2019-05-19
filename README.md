@@ -11,18 +11,21 @@
 git clone https://github.com/EcommEasy/EcommEasy-Store.git
 ```
 
+- **Install dependencies**
+ ```shell
+ cd EcommEasy-Store
+ npm install
+ ```
+
 - **Run Application**
 
 **P.S. Your backend (api) must be online. Follow this [README](https://github.com/EcommEasy/EcommEasy/blob/master/README.md) file before you run EcommEasy-Store.**
 
+Inside the main directory run this command
 ```shell
-cd EcommEasy-Store
 npm start
 ```
-- **Install dependencies**
- ```shell
- npm i
- ```
+
  - **Start application in the background**
   ```shell
   pm2 start process.json
