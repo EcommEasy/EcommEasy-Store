@@ -1,30 +1,36 @@
-# Ecomm-Store - Ecommerce Progressive Web Apps
-
-Ecomm-Store is React and Node.js based eCommerce platform. 
-
-Built with:
-* Node.js v8.9
-* React v16
-* Redux
-* Express
-* Babel
-* WebPack 4
-
-## Store
-Single-Page Application with React server-side rendering. 
+# How to Setup EcommEasy-Store?
 
 ### Requirements
-* Node.js >= 8
+- Node.js >= 8
+- MongoDB >= 3.2
 
-## Documentation
+- **Clone Git repository**
+```shell
+git clone https://github.com/EcommEasy/EcommEasy-Store.git
+cd EcommEasy-Store
+```
 
-## Application Structure
+- **Run Application**
 
-## Contributing
+P.S. Your backend (api) must be online. Follow this [README](https://github.com/EcommEasy/EcommEasy/blob/master/README.md) file before you run EcommEasy-Store.
 
-If you can, please contribute by reporting issues, discussing ideas, or submitting pull requests with patches and new features. We do our best to respond to all issues and pull requests within a day or two, and make patch releases to npm regularly.
+```shell
+npm start
+```
+- **Install dependencies**
+ ```shell
+ npm i
+ ```
+ - **Start application in the background**
+  ```shell
+  pm2 start process.json
+  ```
 
+  - or you can start the app in your terminal:  
+  
+  ```shell
+  npm start
+  ```
 
-## Licence
+Open http://localhost:3000 to see your store.  
 
-This software is provided free of charge and without restriction under the MIT License
