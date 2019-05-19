@@ -9,7 +9,6 @@
 - **Clone Git repository**
 ```shell
 git clone https://github.com/EcommEasy/EcommEasy-Store.git
-cd EcommEasy-Store
 ```
 
 - **Run Application**
@@ -17,6 +16,7 @@ cd EcommEasy-Store
 **P.S. Your backend (api) must be online. Follow this [README](https://github.com/EcommEasy/EcommEasy/blob/master/README.md) file before you run EcommEasy-Store.**
 
 ```shell
+cd EcommEasy-Store
 npm start
 ```
 - **Install dependencies**
