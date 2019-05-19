@@ -1,8 +1,10 @@
-# How to Setup EcommEasy-Store?
+# Setup Instructions
 
-### Requirements
-- Node.js >= 8
-- MongoDB >= 3.2
+## Requirements
+   - Node.js >= 8
+   - MongoDB >= 3.2
+   
+## EcommEasy Frontend (Store) Installation
 
 - **Clone Git repository**
 ```shell
