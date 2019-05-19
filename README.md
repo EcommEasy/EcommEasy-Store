@@ -10,10 +10,13 @@
 ```shell
 git clone https://github.com/EcommEasy/EcommEasy-Store.git
 ```
+- **Go to EcommEasy-Store app folder**
+```shell
+ cd EcommEasy-Store
+ ```
 
 - **Install dependencies**
  ```shell
- cd EcommEasy-Store
  npm install
  ```
 
