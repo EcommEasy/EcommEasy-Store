@@ -4,13 +4,13 @@ module.exports = {
 	language: process.env.LANGUAGE || 'en',
 
 	// used by Store (server side)
-	apiBaseUrl: process.env.API_BASE_URL || 'http://localhost:3001/api/v1',
+	apiBaseUrl: process.env.API_BASE_URL || 'http://165.22.79.116:3001/api/v1',
 
 	// used by API to service assets
-	assetsBaseURL: process.env.ASSETS_BASE_URL || 'http://localhost:3001',
+	assetsBaseURL: process.env.ASSETS_BASE_URL || 'http://165.22.79.116:3001',
 
 	// used by Store (server side)
-	ajaxBaseUrl: process.env.AJAX_BASE_URL || 'http://localhost:3001/ajax',
+	ajaxBaseUrl: process.env.AJAX_BASE_URL || 'http://165.22.79.116:3001/ajax',
 
 	storeListenPort: process.env.STORE_PORT || 3000,
 
