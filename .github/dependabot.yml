@@ -1,0 +1,41 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: mini-css-extract-plugin
+    versions:
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0
+    - 1.4.1
+    - 1.5.0
+  - dependency-name: slug
+    versions:
+    - 4.0.2
+    - 4.0.3
+  - dependency-name: sitemap
+    versions:
+    - 6.3.5
+    - 6.3.6
+  - dependency-name: helmet
+    versions:
+    - 4.4.1
+  - dependency-name: eslint-plugin-prettier
+    versions:
+    - 3.3.1
+  - dependency-name: lodash-es
+    versions:
+    - 4.17.20
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
